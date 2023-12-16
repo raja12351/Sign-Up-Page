@@ -43,7 +43,7 @@ const SignUpForm = () => {
           }}
           style={{ border: emailValid ? '2px solid green' : '2px solid red' }}
         />
-        {!emailValid && <p>invelid email format</p>}
+        {!emailValid && <p>Invalid email format</p>}
       </div>
       <div className='input-section'>
         <label>Password:</label><br/>
